@@ -38,7 +38,7 @@
         name: "Bed and Bath",
         type: "Bedspace unit",
         location: "74 Monaco St, Ciudad Grande 2, Pasig City, 1611 Metro Manila",
-        map: "https://maps.app.goo.gl/hphkFhzp1XebbM849",
+        map: "https://maps.app.goo.gl/Em8f2y1sQvcDdH33A",
         contracts: [
           "299 - Daily Minimum of 3 days stay.",
           "1 MONTH TRIAL -(Lower bed: 2,200, Upper bed: 1,999)",
