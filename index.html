@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <title>Eve's Residences Search</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <div class="max-w-5xl mx-auto p-6">
+
+    <img src="img/FOR_WEB.jpg" alt="Property Image" class="w-full h-auto mb-6" />
+
+    <!-- Inputs -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+      <input
+        type="text"
+        id="locationInput"
+        placeholder="Location (e.g., Cainta)"
+        class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-lime-500"
+      />
+      <input
+        type="text"
+        id="typeInput"
+        placeholder="Unit Type (e.g., Studio, Bedspace)"
+        class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-lime-500"
+      />
+      <input
+          type="text"
+          id="landmarkInput"
+          placeholder="Search by landmark"
+          class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-lime-500"
+        />
+
+    </div>
+
+    <!-- Results -->
+    <div id="results" class="overflow-x-auto cursor-pointer mt-10"></div>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm py-4 border-t mt-10">
+      Powered By <span class="font-semibold text-gray-700">Eve's Residences IT Department</span>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
